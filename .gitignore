@@ -1,0 +1,13 @@
+# Keep datasets and local environments out of version control.
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+.venv/
+.env
+.env.*
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.sqlite
+*.db

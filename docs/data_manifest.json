@@ -1,0 +1,22 @@
+[
+  {
+    "file": "primary-screen-cell-line-info.csv",
+    "bytes": 46849,
+    "sha256": "c17174f48264fea0adb3eb4b2b1f2daf61b83999b0db6e4965338e3bd6a9fde2"
+  },
+  {
+    "file": "primary-screen-replicate-collapsed-logfold-change.csv",
+    "bytes": 41254209,
+    "sha256": "25efc741b372b30d38629cb139a388e989663fba597e55fff5f6c2bb7cdeb75a"
+  },
+  {
+    "file": "primary-screen-replicate-collapsed-treatment-info.csv",
+    "bytes": 1185606,
+    "sha256": "d649f207a437c9e9910572c5023d02f68a77c946f6e972c998b057160a3505e6"
+  },
+  {
+    "file": "sample_info.csv",
+    "bytes": 397977,
+    "sha256": "6c4b4d9c5fec5fe21a6d721beaa85ba33f71d2e983b1fdef65fce616a78b59e7"
+  }
+]
