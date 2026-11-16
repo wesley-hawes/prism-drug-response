@@ -12,7 +12,7 @@ Exploring why cancer cell lines respond differently to the same compound.
 
 ## Start here
 
-Open `notebooks/01_understand_data.ipynb` for an executed walkthrough of the four input tables, their relationships, missingness, cell-identity checks, and an example treatment distribution.
+Open [notebooks/EDA1.ipynb](notebooks/EDA1.ipynb) for the response-matrix audit, metadata joins, missingness and cell-identity checks, and comparisons of response distributions across treatments and cell lines.
 
 The initial files contain 578 response rows and 4,686 treatment columns. Ten response rows lack a confirmed cell identity and fail STR profiling. All 568 remaining cell identities match the supplied DepMap sample metadata. There are 2,632,171 observed responses; these are repeated measurements across cell lines and treatments, not independent patients.
 
@@ -32,7 +32,7 @@ The initial local setup uses an environment that inherits the existing Anaconda 
 
 ## Validation
 
-All starter notebook cells were checked sequentially in Python and their outputs saved. Jupyter kernel startup was blocked by the setup environment’s local socket restrictions, so an interactive kernel run remains to be checked in VS Code.
+All EDA code cells passed sequential execution in Python, including identifier uniqueness and the 568 × 4,686 verified response matrix. The notebook retains outputs saved in VS Code. A separate Jupyter-kernel rerun was blocked by local socket restrictions; re-run the notebook in VS Code with the inputs in `data/raw/`.
 
 ## Data relationships
 
